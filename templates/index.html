@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متا لرن</title>
+    <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body class="bg-bg-body overflow-x-hidden selection:bg-primary-100 dark:bg-gray-900">
+
+
+    <header>
+
+        <div class="h-24 bg-white flex items-center justify-between shadow-sm dark:bg-dark-card">
+
+            <div class="w-[770px] laptop:w-3/5 laptop:justify-between laptop:flex-row-reverse h-full flex items-center justify-start">
+                <div class="w-40  laptop:w-24 desktop:w-36 h-full flex items-center justify-center">
+                    <img class="w-20" src="/img/logo.webp" alt="">
+                </div>
+
+                <div class="w-12 h-12 bg-bg-body m-4 rounded-full  hidden laptop:flex justify-center items-center open-icon dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>                      
+                </div>
+
+                <div class="w-[590px] laptop:hidden h-full flex items-center justify-around">
+                    <ul class="flex items-center justify-around gap-9 font-dana dark:text-white ">
+
+
+                        <!--! SUB MENU DESKTOP  -->
+
+                        <li class="cursor-pointer relative group flex justify-center items-center gap-2">فرانت اند 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                            <ul class="invisible z-20 absolute group-hover:visible bg-white w-56 top-12 border border-bg-body shadow-md rounded-xl gap-3 px-4 py-3 flex items-start justify-around flex-col dark:bg-dark-card dark:border-primary-100">
+                                <div class="h-11 absolute -top-7 translate-x-4 w-56"></div>
+                                <a href=""><li>دوره  react</li></a>
+                                <a href=""><li>دوره طراحی قالب</li></a>
+                                <a href=""><li>دوره Vue.js</li></a>
+                                <a href=""><li>پروژه های کاربردی Html , Css</li></a>
+                                <a href=""><li>اموزش Html</li></a>
+                                <a href=""><li>اموزش Css</li></a>
+                                <a href=""><li>اموزش Bootstrap</li></a>
+                            </ul>
+                        </li>
+
+
+                        <li class="cursor-pointer relative group flex justify-center items-center gap-2">امنیت 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                          
+                            <ul class="invisible z-20 absolute group-hover:visible bg-white w-56 top-12 border border-bg-body shadow-md rounded-xl gap-3 px-4 py-3 flex items-start justify-around flex-col dark:bg-dark-card dark:border-primary-100">
+                                <div class="h-11 absolute -top-7 translate-x-4 w-56"></div>
+                                <a href=""><li>دوره  black python</li></a>
+                                <a href=""><li>دوره bad usb</li></a>
+                                <a href=""><li>دوره black js</li></a>
+                                <a href=""><li>اموزش Html</li></a>
+                                <a href=""><li>اموزش Css</li></a>
+                                <a href=""><li>اموزش Bootstrap</li></a>
+                            </ul>
+                        </li>
+
+                        <!--! SUB MENU DESKTOP  -->
+
+
+                        <li class="cursor-pointer">پایتون</li>
+                        <li class="cursor-pointer">پی اچ پی</li>
+                        <li class="cursor-pointer">ارتقای مهارت</li>
+                        <li class="cursor-pointer">مقالات</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-[600px] laptop:w-1/2 h-full flex items-center justify-end gap-3">
+                <div class="w-80 2xl:w-72 desktop:hidden  relative h-full flex items-center justify-center">
+
+                    <input placeholder="چی میخوای یاد بگیری ؟" class="w-full p-5 font-dana rounded-full bg-bg-body h-14 border-none dark:bg-gray-700 text-white" type="text" >
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 absolute left-4 dark:text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      
+
+                </div>
+
+                <div class="w-[235px] desktop:w-[290px] laptop:w-[160px] laptop:justify-center mobile:justify-center flex items-center justify-start gap-4 ">
+                    <div class="w-14 h-14 bg-bg-body rounded-full hidden desktop:flex items-center justify-center dark:bg-gray-700 laptop:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>                                                 
+                    </div>
+                    <div class="w-14 h-14 bg-bg-body rounded-full flex items-center justify-center dark:bg-gray-700 cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>                          
+                    </div>
+                    <div class="w-14 h-14 bg-bg-body rounded-full flex items-center justify-center dark:bg-gray-700 cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>  
+                    </div>
+
+
+                    <div class="w-14 h-14 bg-bg-body rounded-full dark:hidden flex items-center justify-center dark:bg-gray-700 laptop:hidden laptop:dark:hidden dark-mode  cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                        </svg>  
+                    </div>
+
+                    <div class="w-14 h-14 bg-bg-body rounded-full  items-center hidden dark:flex justify-center dark:bg-gray-700 laptop:hidden laptop:dark:hidden light-mode cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                        </svg>                          
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </div>
+
+        <!--* HUMBERGER MENU -->
+
+        <div class="mask fixed w-full h-screen bg-black/40 top-0 right-0 z-20 hidden">
+            <div class="fixed w-64 h-screen bg-white top-0 -right-88 flex flex-col p-4 overflow-y-auto humberger-menu dark:bg-dark-card" >
+                <div class="pb-5 flex items-center mb-4 justify-between border-b border-b-neutral-200 dark:border-b-neutral-200/40 ">
+                    <div class="w-32 h-full flex items-center justify-center">
+                        <img class="w-20" src="/img/logo.webp" alt="">
+                    </div>
+
+                    <div class="w-32 h-full flex items-center justify-center gap-3 ">
+                        <div class="w-12 h-12 bg-bg-body rounded-full flex dark:hidden items-center justify-center dark-mode dark:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                            </svg>                              
+                        </div>
+                        <div class="w-12 h-12 bg-bg-body rounded-full dark:flex hidden items-center justify-center light-mode dark:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                              </svg>
+                              
+                        </div>
+                        <div class="w-12 h-12 bg-bg-body rounded-full flex items-center justify-center close-icon dark:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            </svg>                              
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" flex justify-center items-center relative">
+                    <input placeholder="چی میخوای یاد بگیری ؟" class="w-full p-5 font-dana rounded-full bg-bg-body h-14 border-none dark:bg-gray-700 text-white" type="text" >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 absolute left-4 dark:text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+
+                <div class="flex flex-col mt-8 ">
+                    <ul class="flex flex-col gap-5 font-dana dark:text-white">
+
+                        <!--! SUB MENU MOBILE  -->
+
+                        <li class="flex items-start flex-col mobile-menu">
+                            
+                            <div class="flex justify-between items-center w-full">
+                                <p>فرانت اند </p>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sub-svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                              </svg>
+                              
+                            </div>
+                            
+                            <ul class="sub-menu bg-gray-100 rounded-xl px-4 py-3 gap-3 w-full hidden  flex-col my-6 dark:bg-gray-700 ">
+                                <a href=""><li>دوره  react</li></a>
+                                <a href=""><li>دوره طراحی قالب</li></a>
+                                <a href=""><li>دوره Vue.js</li></a>
+                                <a href=""><li>پروژه های کاربردی Html , Css</li></a>
+                                <a href=""><li>اموزش Html</li></a>
+                                <a href=""><li>اموزش Css</li></a>
+                                <a href=""><li>اموزش Bootstrap</li></a>
+                            </ul> 
+                            
+                        </li>
+
+                        <li class="flex items-start flex-col mobile-menu">
+                            
+                            <div class="flex justify-between items-center w-full">
+                                <p>امنیت</p>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sub-svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                              </svg>
+                              
+                            </div>
+                            
+                            <ul class="sub-menu bg-gray-100 rounded-xl px-4 py-3 gap-3 w-full hidden  flex-col my-6  dark:bg-gray-700">
+                                <a href=""><li>دوره  black python</li></a>
+                                <a href=""><li>دوره bad usb</li></a>
+                                <a href=""><li>دوره black js</li></a>
+                                <a href=""><li>اموزش Html</li></a>
+                                <a href=""><li>اموزش Css</li></a>
+                                <a href=""><li>اموزش Bootstrap</li></a>
+                            </ul> 
+                            
+                        </li>
+
+                        
+
+                        <!--! SUB MENU MOBILE  -->
+
+                        
+                        <li>پایتون</li>
+                        <li>پی اچ پی</li>
+                        <li>ارتقای مهارت </li>
+                        <li>مقالات</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!--* HUMBERGER MENU -->
+
+    </header>
+    
+
+    <!--* ---------- HEAD INDEX --------  -->
+
+    <section>
+        <div class="container h-[500px] mt-24 flex items-center justify-between relative mobile:flex-col-reverse mobile:h-[700px] mobile:mt-2 tablet:flex-col-reverse tablet:h-[780px] laptop:flex-col-reverse laptop:h-[890px]">
+
+            <div class="w-52 h-52 rounded-full bg-primary-100 -bottom-8 -right-10 blur-[150px] -z-10 opacity-85 absolute"></div>
+
+            <div class="w-1/2 h-full flex flex-col items-start justify-start gap-8 mobile:w-full  tablet:w-full laptop:w-full">
+                <h1 class="font-dana-bold text-5xl font-black mt-28 font mobile:text-4xl mobile:mt-6 leading-14 dark:text-white">
+                    آکادمی آموزش<br>
+                    برنامه نویسی متالرن     
+                </h1>
+                <p class="font-dana text-2xl font-medium mobile:text-base dark:text-white">با آکادمی خصوصی متالرن، علم برنامه نویسی رو  <br>با خیال راحت یاد بگیر و پیشرفت کن</p>
+                <div class="flex items-center justify-center">
+                    <a href="" class="w-48 h-12 text-center leading-[48px] rounded-full text-white bg-sky-400 mobile:w-36 mobile:text-xs mobile:leading-[50px] hover:bg-sky-600 transition-all">
+                        از این مسیر ها شروع کن
+                    </a>
+
+                    <div class="flex items-center justify-center m-4 flex-row-reverse gap-3">
+                        <p class="font-dana dark:text-white mobile:text-sm">دوره های رایگان</p>
+                        <div class="w-14 h-14 rounded-full bg-primary-100 flex items-center justify-center">
+                            <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 12L3 18.9671C3 21.2763 5.53435 22.736 7.59662 21.6145L10.7996 19.8727M3 8L3 5.0329C3 2.72368 5.53435 1.26402 7.59661 2.38548L20.4086 9.35258C22.5305 10.5065 22.5305 13.4935 20.4086 14.6474L14.0026 18.131" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="w-1/2 h-full flex items-center justify-center mobile:w-full tablet:w-full laptop:w-full relative">
+                <img class="max-w-[1000px] dark:hidden  absolute -left-36 mobile:w-[97%] mobile:mx-auto mobile:left-3 mobile:top-5 mobile:static tablet:w-[97%] tablet:mx-auto tablet:left-3 tablet:top-5 tablet:static  laptop:w-[97%] laptop:mx-auto laptop:left-3 laptop:top-5 laptop:static desktop:w-[530px] desktop:left-3 2xl:left-0 2xl:w-[700px]"  src="/img/index.svg" alt="">
+                <img class="max-w-[1000px] hidden dark:block  absolute -left-36 mobile:w-[97%] mobile:mx-auto mobile:left-3 mobile:top-5 mobile:static tablet:w-[97%] tablet:mx-auto tablet:left-3 tablet:top-5 tablet:static  laptop:w-[97%] laptop:mx-auto laptop:left-3 laptop:top-5 laptop:static desktop:w-[530px] desktop:left-3 2xl:left-0 2xl:w-[700px]"  src="/img/index-dark.svg" alt="">
+            </div>
+            
+        </div>
+    </section>
+
+    <!--* ---------- HEAD INDEX --------  -->
+    
+    
+    <!--* ---------- COMMENTS ----------  -->
+
+    <section>
+
+        <div  class="container flex flex-col mt-20 relative ">
+
+            <div class="w-52 h-52 rounded-full bg-orange-300 -bottom-8 -right-17 blur-[150px] -z-10 opacity-85 absolute"></div>
+
+            <div class="w-full gap-3 h-28 mobile:h-20 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-violet-400 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-0 dark:text-white">درباره دوره های ما میگویند</h2>
+                </div>
+                <div class=" w-full flex items-center mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">نظر شما هنرجویان عزیزان راجب ما</p>
+                </div>
+            </div>
+
+            <div dir="ltr" class="grid grid-cols-3 gap-4 h-auto justify-items-center  rounded-md mobile:grid-cols-1 laptop:grid-cols-2 tablet:grid-cols-2">
+
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs font-mono mx-7 dark:text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eum, porro nobis repellat odio nisi id incidunt sunt vel pariatur odit illo tempore impedit asperiores atque sed consequuntur aut earum.</p>
+                        </div>
+                    </div>
+            
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user2.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs mx-7 font-mono dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, repellendus id quasi consequuntur expedita deleniti. Officiis debitis, a totam repudiandae culpa deserunt minus, autem optio consequatur architecto non, ducimus odio hic! Atque optio debitis officiis explicabo! At qui repudiandae nemo id a ex consequatur ipsam eaque sit? Ad, ipsa earum?</p>
+                        </div>
+                    </div>
+            
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user3.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs mx-7 font-mono dark:text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti vel obcaecati minima. Commodi reprehenderit illo quasi modi. Quo qui est possimus?</p>
+                        </div>
+                    </div>
+            
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user4.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs mx-7 font-mono dark:text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti vel obcaecati minima. Commodi reprehenderit illo quasi modi. Quo qui est possimus?</p>
+                        </div>
+                    </div>
+            
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user5.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs mx-7 font-mono dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ducimus fuga neque. Distinctio explicabo minima voluptates veritatis expedita tenetur! Repellendus ut vero praesentium voluptas dignissimos similique necessitatibus aliquam doloremque? At reiciendis ipsum incidunt consequatur dicta velit quisquam. Asperiores totam neque, saepe perferendis iusto iste, reprehenderit repudiandae nesciunt itaque odit adipisci est vel non nulla soluta.</p>
+                        </div>
+                    </div>
+            
+                    <div class="w-full m-0 h-auto rounded-md bg-white flex flex-col hover:translate-y-2 duration-150 mobile:m-auto mobile:w-full  laptop:w-[360px] tablet:w-[290px] dark:bg-dark-card ">
+                        <div class="w-full  mt-3 h-20  flex items-center justify-start">
+                            <div class="w-28 h-full flex items-center justify-center">
+                                <img class="w-16 rounded-full" src="/img/user6.jpg" alt="">
+                            </div>
+                            <div class="w-auto h-full  flex flex-col items-start gap-2 justify-center">
+                                <h2 class="font-mono text-ls font-bold mr-10 dark:text-white" >Guillermo Rauch</h2>
+                                <p class="text-xs font-mono mr-3 dark:text-white">REACT & NODE JS developer</p>
+                            </div>
+                        </div>
+            
+                        <div class="w-full h-auto my-4">
+                            <p class="text-xs mx-7 font-mono dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis possimus officiis necessitatibus, blanditiis nobis ratione quasi? Exercitationem cupiditate et fugit saepe iusto voluptas rem voluptatem placeat aperiam hic, optio laboriosam, officiis sunt eaque veritatis! Numquam inventore assumenda id cupiditate molestiae deserunt fugit alias!</p>
+                        </div>
+                    </div>
+
+            <div>
+    
+        </div>
+    
+    </section>
+
+    <!--* ---------- COMMENTS ----------  -->
+
+
+    <!--* ---------- QUESTIONS ----------  -->
+
+    <section>
+        <div class="container mb-20 flex flex-col my-20">
+            <div class="w-full gap-3 h-28 mobile:h-20 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-primary-100 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-0 dark:text-white">ما چه کمکی میتونیم بهت بکنیم</h2>
+                </div>
+                <div class=" w-full flex items-center mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">از شروع مسیر کنارتیم نمیذاریم آب تو دلت تکون بخوره</p>
+                </div>
+            </div>
+    
+            <div class="grid grid-rows-2 md:grid-cols-2 gap-6 sm:gap-7 cursor-default mt-4 font-dana mobile:">
+
+                
+                <div class="flex items-center justify-start bg-white h-36 rounded-md mobile:w-full mobile:m-auto dark:bg-dark-card">
+                    <div class="w-36 h-full flex items-center justify-center ">
+                        <img class="w-24 md:w-17 xl:w-20 mobile:w-17" src="/img/icons8-book-100.png" alt="">
+                    </div>
+                    <div class="w-96 mobile:w-full h-full flex flex-col items-start justify-center gap-3">
+                        <h2 class="font-bold text-xl mobile:text-sm dark:text-white">تضمین کاملترین محتوا</h2>
+                        <p class="ml-4 opacity-85 text-sm mobile:text-xs mobile:ml-4 laptop:text-sm dark:text-white ">بزار خیالت راحت کنم توی دوره هامون به ریز ترین موارد پرداختیم بعداز دیدن این دوره نیاز به هیچ آموزش دیگه ای نداری.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-start bg-white h-36 rounded-md mobile:w-full mobile:m-auto dark:bg-dark-card">
+                    <div class="w-36 h-full flex items-center justify-center ">
+                        <img class="w-24 md:w-17 xl:w-20 mobile:w-17 " src="/img/icons8-message-100.png" alt="">
+                    </div>
+                    <div class="w-96 mobile:w-full h-full flex flex-col items-start justify-center gap-3">
+                        <h2 class="font-bold text-xl mobile:text-sm dark:text-white">پشتیبانی دائمی</h2>
+                        <p class="ml-4 opacity-85 text-sm mobile:text-xs mobile:ml-4 laptop:text-sm dark:text-white ">هرجا سوالی داشتی به مشکل خوردی بچه های تیم آمادن که مشکلت رو حل کنن تلاشمون اینه بدون نگرانی دوره رو کامل کنی.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-start bg-white h-36 rounded-md mobile:w-full mobile:m-auto dark:bg-dark-card">
+                    <div class="w-36 h-full flex items-center justify-center ">
+                        <img class="w-24 md:w-17 xl:w-20 mobile:w-17 " src="/img/icons8-professional-100.png" alt="">
+                    </div>
+                    <div class="w-96 mobile:w-full h-full flex flex-col items-start justify-center gap-3">
+                        <h2 class="font-bold text-xl mobile:text-sm dark:text-white">سراغ حرفه ای ها رفتیم</h2>
+                        <p class="ml-4 opacity-85 text-sm mobile:text-xs mobile:ml-4 laptop:text-sm dark:text-white ">به جرعت میتونم بگم سخت گیرترین شرایط جذب مدرس داریم چون برامون مهمه محتوا خیلی ساده و روان بیان بشه که توی یادگیری به مشکل نخورید.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-start bg-white h-36 rounded-md mobile:w-full mobile:m-auto dark:bg-dark-card">
+                    <div class="w-36 h-full flex items-center justify-center ">
+                        <img class="w-24 md:w-17 xl:w-20 mobile:w-17 " src="/img/icons8-money-100.png" alt="">
+                    </div>
+                    <div class="w-96 mobile:w-full h-full flex flex-col items-start justify-center gap-3">
+                        <h2 class="font-bold text-xl mobile:text-sm dark:text-white">پروژه محور در راستای بازار کار</h2>
+                        <p class="ml-4 opacity-85 text-sm mobile:text-xs mobile:ml-4 laptop:text-sm dark:text-white ">کل تمرکز ما رو این هستش بعداز تموم شدن دوره شخص بتونه با اعتماد به نفس کامل پروژه بزنه واقدام کنه برای کسب درآمد.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--* ---------- QUESTIONS ----------  -->
+
+
+    <!--* ---------- TURIALS ------------  -->
+
+    <section>
+        <div class="container relative mb-20 flex flex-col my-20 ">
+
+            <div class="w-52 h-52 rounded-full bg-blue-300 -top-8 left-0 blur-[150px] -z-10 opacity-85 absolute mobile:left-0 tablet:left-0 laptop:left-0 desktop:left-0"></div>
+
+            <div class="w-full h-28 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-orange-300 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-5 dark:text-white">آخرین دوره های متالرن</h2>
+                </div>
+                <div class=" mobile:flex-col mobile:gap-3 w-full flex items-center justify-between mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">سکوی پرتاپ شما به سمت موفقیت</p>
+                    <a class="font-dana text-primary-100 w-52 h-12 flex items-center rounded-3xl duration-100 text-center justify-center hover:bg-primary-100 mobile:hover:bg-transparent hover:text-white gap-2" href="">مشاهده همه دوره ها 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>  
+                    </a>                </div>
+            </div>
+
+            <div class="my-6 grid grid-rows-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/IMAG1.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image2.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image3.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image4.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image5.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image6.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image7.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image8.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b-[1px] pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!--* ---------- TURIALS ------------  -->
+
+
+     <!--* ------ TEXT ATTRIBUTES --------  -->
+
+     <section>
+        <div class="container  flex items-center justify-center ">
+            <div class="grid items-center w-full grid-cols-3  gap-16 mobile:gap-4 mobile:grid-cols-1 laptop:grid-cols-2">
+                
+                <div class="relative h-28 bg-white attributes-card rounded-md flex flex-col items-start justify-center p-14 gap-3 dark:bg-dark-card mobile:px-24">
+                    <h2 class="font-dana font-bold dark:text-white">پشتیبانی 24 ساعته</h2>
+                    <p class="font-dana text-sm text-gray-400">تمام دوره های سایت پشتیبانی دارن</p>
+                    <div class="absolute shadow-xl shadow-primary-100 w-20 h-20 bg-primary-100 rounded-xl -right-11 flex items-center justify-center mobile:right-2 mobile:w-16 mobile:h-16">
+                        <img class="w-12" src="/img/icons8-message-80.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="relative h-28 bg-white attributes-card rounded-md flex flex-col items-start justify-center p-14 gap-3 dark:bg-dark-card mobile:px-24">
+                    <h2 class="font-dana font-bold dark:text-white">فرصت های شغلی</h2>
+                    <p class="font-dana text-sm text-gray-400">مزایای استخدام در سایت را مشاهده کنید</p>
+                    <div class="absolute shadow-xl shadow-primary-100 w-20 h-20 bg-primary-100 rounded-xl -right-11 flex items-center justify-center mobile:right-2 mobile:w-16 mobile:h-16">
+                        <img class="w-12" src="/img/icons8-job-64.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="relative h-28 bg-white attributes-card rounded-md flex flex-col items-start justify-center p-14 gap-3 dark:bg-dark-card mobile:px-24">
+                    <h2 class="font-dana font-bold dark:text-white">دوره های کاربردی</h2>
+                    <p class="font-dana text-sm text-gray-400">دوره های سایت توسط بهترین ها ضبط شده</p>
+                    <div class="absolute shadow-xl shadow-primary-100 w-20 h-20 bg-primary-100 rounded-xl -right-11 flex items-center justify-center mobile:right-2 mobile:w-16 mobile:h-16">
+                        <img class="w-12" src="/img/icons8-video-100.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--* ------ TEXT ATTRIBUTES --------  -->
+
+
+    <!--* ---------- TOP TURIALS --------  -->
+
+    <section>
+        <div class="container  mb-20 flex flex-col my-20">
+
+            <div class="w-full  h-28 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-blue-400 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-5 dark:text-white">محبوب ترین دوره ها</h2>
+                </div>
+                <div class=" mobile:flex-col mobile:gap-3 w-full flex items-center justify-between mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">پرمخاطب ترین دوره های رایگان متالرن</p>
+                    <a class="font-dana text-primary-100 w-52 h-12 flex items-center rounded-3xl duration-100 text-center justify-center hover:bg-primary-100 mobile:hover:bg-transparent hover:text-white gap-2" href="">مشاهده همه دوره ها 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>  
+                    </a>                </div>
+            </div>
+
+            <div class="my-6 grid grid-rows-1  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/IMAG1.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image3.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image5.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-96 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <div class="w-16 h-8 bg-primary-100 absolute top-5 left-3 flex items-center justify-center rounded-2xl font-dana text-white">
+                            <p class="translate-y-0.5">30%</p>
+                        </div>
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/image4.webp" alt="">
+                    </div>
+                    <div class="h-28 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">NestJS یه فریم‌ورک توسعه سمت سرور وب با TypeScript برای ساخت برنامه‌های مبتنی بر</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-yellow-400">5.0</p>
+                                <img class="w-5" src="/img/star.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">33</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 dark:text-primary-100">1,400,000 تومان</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!--* ---------- TOP TURIALS --------  -->
+
+
+    <!--* ---------- ROAD MAP -----------  -->
+
+    <section>
+        <div class="container  mb-20 flex flex-col my-20">
+
+            <div class="w-full  h-28 mobile:h-20 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-yellow-400 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-5 dark:text-white">نقشه راه ها</h2>
+                </div>
+                <div class=" mobile:flex-col mobile:gap-3 w-full flex items-center justify-between mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">نقشه های راه برای شروع اصولی یادگیری</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-4 my-6 mobile:grid-cols-1 laptop:grid-cols-3">
+                <a href="" class="h-44 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl gap-4 flex flex-col items-center justify-center">
+                    <img class="w-14 " src="/img/icons8-talk-100.png" alt="">
+                    <h2 class="font-bold text-white text-lg">مهارت های نرم</h2>
+                    <p class="text-base text-white">18 دوره</p>
+                </a>
+                <a href="" class="h-44 bg-gradient-to-r from-red-500 to-orange-500 rounded-xl gap-4 flex flex-col items-center justify-center">
+                    <img class="w-14 " src="/img/icons8-spyware-100.png" alt="">
+                    <h2 class="font-bold text-white text-lg">امنیت</h2>
+                    <p class="text-base text-white">12 دوره</p>
+                </a>
+                <a href="" class="h-44 bg-gradient-to-r from-amber-200 to-yellow-500 rounded-xl gap-4 flex flex-col items-center justify-center">
+                    <img class="w-14 " src="/img/icons8-code-100.png" alt="">
+                    <h2 class="font-bold text-white text-lg">فرانت اند</h2>
+                    <p class="text-base text-white">22 دوره</p>
+                </a>
+                <a href="" class="h-44 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-xl gap-4 flex flex-col items-center justify-center">
+                    <img class="w-14 " src="/img/icons8-python-100.png" alt="">
+                    <h2 class="font-bold text-white text-lg">پایتون</h2>
+                    <p class="text-base text-white">32 دوره</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--* ---------- ROAD MAP -----------  -->
+    
+
+    <!--* ---------- WEBLOG ITEMS -------  -->
+
+    <section>
+        <div class="container relative  mb-20 flex flex-col my-20">
+
+            <div class="w-52 h-52 rounded-full bg-primary-100 -top-8 -right-17 blur-[150px] -z-10 opacity-85 absolute"></div>
+            
+            <div class="w-full h-28 0 flex items-center justify-start flex-col">
+                <div class=" w-full flex items-center justify-start gap-2 mobile:justify-center">
+                    <div class="w-4 h-4 bg-red-400 rounded-sm mobile:hidden"></div>
+                    <h2 class="text-3xl font-bold font-dana mobile:text-xl mobile:mb-5 dark:text-white">وبلاگ آموزشی متالرن</h2>
+                </div>
+                <div class=" mobile:flex-col mobile:gap-3 w-full flex items-center justify-between mobile:text-center mobile:justify-center">
+                    <p class="font-dana opacity-85 text-lg mobile:text-sm text-center dark:text-white">مقالات بروز برنامه نویسی</p>
+                    <a class="font-dana text-primary-100 w-52 h-12 flex items-center rounded-3xl duration-100 text-center justify-center hover:bg-primary-100 mobile:hover:bg-transparent hover:text-white gap-2" href="">مشاهده همه دوره ها 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>  
+                    </a>
+                </div>
+            </div>
+
+            <div class="my-6 grid  grid-rows-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-110 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/weblog1.webp" alt="">
+                        <div class="absolute h-full w-full inset-0 -bottom-5 weblog-color dark:weblog-dark"></div>
+                    </div>
+                    <div class="mt-4 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">اگر به برنامه‌نویسی علاقه دارید و یا حتی چند وقتی است که مشغول یادگیری هستید، احتمالاً اصطلاح “برنامه‌نویس فول استک” به گوشتان خورده است. اما چه چیزی باعث شده</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-gray-400">1403/07/16</p>
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-center dark:text-white">
+                            <a href="">مطالعه مقاله</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-110 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/weblog2.webp" alt="">
+                        <div class="absolute h-full w-full inset-0 -bottom-5 weblog-color dark:weblog-dark"></div>
+                    </div>
+                    <div class="mt-4 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">اگر به برنامه‌نویسی علاقه دارید و یا حتی چند وقتی است که مشغول یادگیری هستید، احتمالاً اصطلاح “برنامه‌نویس فول استک” به گوشتان خورده است. اما چه چیزی باعث شده</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-gray-400">1403/07/16</p>
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-center dark:text-white">
+                            <a href="">مطالعه مقاله</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-110 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/weblog3.jpg" alt="">
+                        <div class="absolute h-full w-full inset-0 -bottom-5 weblog-color dark:weblog-dark"></div>
+                    </div>
+                    <div class="mt-4 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">اگر به برنامه‌نویسی علاقه دارید و یا حتی چند وقتی است که مشغول یادگیری هستید، احتمالاً اصطلاح “برنامه‌نویس فول استک” به گوشتان خورده است. اما چه چیزی باعث شده</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-gray-400">1403/07/16</p>
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-center dark:text-white">
+                            <a href="">مطالعه مقاله</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="course flex flex-col bg-white border border-neutral-100 mobile:w-full mobile:m-auto rounded-2xl h-110 dark:bg-dark-card dark:border-none ">
+                    <div class="h-44 w-full relative">
+                        <img class="h-44 w-full rounded-xl object-cover" src="/img/weblog4.webp" alt="">
+                        <div class="absolute h-full w-full inset-0 -bottom-5 weblog-color dark:weblog-dark"></div>
+                    </div>
+                    <div class="mt-4 flex flex-col p-3">
+                        <h2 class="text-base font-dana mt-3 font-bold dark:text-white">آموزش پروژه محور NestJS از صفر!</h2>
+                        <p class="text-sm opacity-85 font-dana mt-2 dark:text-gray-300">اگر به برنامه‌نویسی علاقه دارید و یا حتی چند وقتی است که مشغول یادگیری هستید، احتمالاً اصطلاح “برنامه‌نویس فول استک” به گوشتان خورده است. اما چه چیزی باعث شده</p>
+                    </div>
+
+                    <div class="h-44  flex flex-col p-3 gap-3">
+                        <div class="h-8 border-b pb-4 border-b-neutral-200/70  flex items-center justify-between">
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>                                  
+                                <p class="font-dana dark:text-gray-300">معین باغشیخی</p>
+                            </div>
+                            <div class="flex gap-2 h-full items-center justify-center">
+                                <p class="font-dana translate-y-0.5 text-gray-400">1403/07/16</p>
+                            </div>
+                        </div>
+
+                        <div class="h-8  flex items-center justify-center dark:text-white">
+                            <a href="">مطالعه مقاله</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        <div>
+    </section>
+    
+
+    <!--* ---------- WEBLOG ITEMS -------  -->
+
+    <footer class="bg-white dark:bg-dark-card">
+        <div class="container bg-white dark:bg-dark-card w-full flex flex-col">
+            <div class="h-32 flex items-center justify-between">
+                <div class="w-56 h-full flex items-center justify-start gap-4">
+                    <img class="w-20 mobile:w-17" src="/img/logo.webp" alt="">
+                    <h2 class="font-dana-bold text-3xl mobile:text-2xl dark:text-white">متالرن</h2>
+                </div>
+                <div class="w-32 h-full flex items-center justify-end gap-3">
+                    <div class="w-10 h-10 rounded-full bg-bg-body dark:bg-gray-300 flex items-center justify-center">
+                        <svg class="w-7  dark:storke-white" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#000000"></rect> <rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#000000" stroke-linecap="round"></rect> </g>
+                        </svg>
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-bg-body dark:bg-gray-300 flex items-center justify-center">
+                        <svg class="w-7 dark:text-white" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path stroke="#000000" stroke-width="12" d="M23.073 88.132s65.458-26.782 88.16-36.212c8.702-3.772 38.215-15.843 38.215-15.843s13.621-5.28 12.486 7.544c-.379 5.281-3.406 23.764-6.433 43.756-4.54 28.291-9.459 59.221-9.459 59.221s-.756 8.676-7.188 10.185c-6.433 1.509-17.027-5.281-18.919-6.79-1.513-1.132-28.377-18.106-38.214-26.404-2.649-2.263-5.676-6.79.378-12.071 13.621-12.447 29.891-27.913 39.728-37.72 4.54-4.527 9.081-15.089-9.837-2.264-26.864 18.483-53.35 35.835-53.35 35.835s-6.053 3.772-17.404.377c-11.351-3.395-24.594-7.921-24.594-7.921s-9.08-5.659 6.433-11.693Z"></path></g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-20 flex items-start justify-start gap-3 border-b dark:border-b-neutral-200/20 border-b-neutral-200/80 flex-wrap ">
+                <div class="flex items-center justify-around flex-row-reverse gap-2">
+                    <a class="font-dana dark:text-gray-300" href="">erfan.web8787@gmail.com</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>                      
+                </div>
+                <div class="flex items-center justify-around flex-row-reverse gap-2">
+                    <a class="font-dana dark:text-gray-300" href="">091111111</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>                      
+                </div>
+                <div class="flex items-center justify-around flex-row-reverse gap-2">
+                    <a class="font-dana dark:text-gray-300" href="">erfan_web</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                    </svg>                      
+                </div>
+            </div>
+
+            <div class=" my-10 flex items-center justify-between gap-2 mobile:flex-col mobile:gap-7 tablet:flex-wrap laptop:flex-wrap">
+                <div class="w-1/3 h-full flex flex-col gap-3  ml-17 mobile:w-full mobile:m-0 tablet:mb-8 tablet:w-full laptop:w-full">
+                    <h3 class="font-dana-bold text-2xl dark:text-white">درباره متالرن</h3>
+                    <p class="font-dana dark:text-white">شروع هرچیزی سخته، ولی وقتی مسیر درستی رو انتخاب کنی، با خیال راحت و بدون استرس میتونی از مسیر لذت ببری. ما در متالرن، توی سفر به دنیای برنامه نویسی کنارت هستیم تا باهم رشد کنیم و از نتیجه زحمات مون لذت ببریم.</p>
+                </div>
+                <div class="w-1/4 h-full mobile:w-full mobile:m-0">
+                    <h3 class="font-dana-bold text-2xl tablet:text-base dark:text-white">دوره های پرطرفدار</h3>
+                    <ul class="flex flex-col gap-2 mt-4 dark:text-white">
+                        <a class="font-dana">اموزش پایتون</a>
+                        <a class="font-dana"> اموزش فرانت اند</a>
+                        <a class="font-dana">اموزش Html</a>
+                        <a class="font-dana">اموزش Css</a>
+                    </ul>
+                </div>
+                <div class="w-1/4 h-full mobile:w-full mobile:m-0">
+                    <h3 class="font-dana-bold text-2xl tablet:text-base dark:text-white">دسترسی سریع</h3>
+                    <ul class="flex flex-col gap-2 mt-4 dark:text-white">
+                        <a class="font-dana">اموزش پایتون</a>
+                        <a class="font-dana"> اموزش فرانت اند</a>
+                        <a class="font-dana">اموزش Html</a>
+                        <a class="font-dana">اموزش Css</a>
+                    </ul>
+                </div>
+                <div class="w-1/4 h-full flex items-center justify-end mobile:w-full mobile:m-0 mobile:justify-center">
+                    <img src="/img/enamad.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between my-8 mobile:flex-col mobile:gap-2 ">
+                <p class="font-dana mobile:text-sm dark:text-white">کلیه حقوق مادی و معنوی سایت برای سبز لرن محفوظ است.</p>
+                <p class="font-dana dark:text-white">ساخته شده با <span class="animate-ping">❤️</span> در متالرن</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="/js/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            //* MENU OPEN & CLOSE
+
+            $(".open-icon").click(function(){
+                $(".mask").fadeIn()
+                $(".humberger-menu").removeClass("close-menu")
+                $(".humberger-menu").addClass("open-menu")
+
+            })
+
+            $(".close-icon").click(function(){
+                $(".humberger-menu").removeClass("open-menu")
+                $(".humberger-menu").addClass("close-menu")
+                $(".mask").fadeOut()
+
+            })
+
+            //* MENU OPEN & CLOSE
+
+            //* SUB MENU OPEN & CLOSE
+
+            $(".mobile-menu").click(function(){
+            $(".sub-menu").not($(this).children(".sub-menu")).removeClass("active");
+            $(".mobile-menu").not(this).find(".sub-svg").removeClass("rotate");
+
+            $(this).children(".sub-menu").toggleClass("active");
+            $(this).find(".sub-svg").toggleClass("rotate");
+
+            //* SUB MENU OPEN & CLOSE
+        });
+
+            //* DARK MODE SCRIPT
+
+            $(".dark-mode").click(function(){
+                $("html").addClass('dark')
+            })
+
+            $(".light-mode").click(function(){
+                $("html").removeClass('dark')
+            })
+
+            //* DARK MODE SCRIPT
+            
+
+        })
+    </script>
+</body>
+</html>

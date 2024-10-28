@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .container {
+        @apply max-w-[1265px] desktop:max-w-[1279px] laptop:max-w-[1023px] tablet:max-w-[767px] mobile:max-w-[475px];
+    }
+    
+    input[type="text"]:focus {
+        outline: none; 
+        border: none;
+    }
+
+    a{
+        @apply font-dana;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+       
+      /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #cfcfcf; 
+    }
+
+    @font-face {
+        font-family: dana;
+        src: url(/fonts/Dana.ttf);
+    }
+
+    @font-face {
+        font-family: dana-bold;
+        src: url(/fonts/Dana-ExtraBold.ttf);
+    }
+      
+}
+
+@layer components {
+    .title-section{
+        @apply text-2xl text-white font-dana;
+    }
+}
+
+
+@layer utilities {
+    .test{
+        background-color: aqua;
+    }
+
+    .weblog-color{
+        background: linear-gradient(180deg,#fff0,rgba(255, 255, 255, 0.87) 74.19%,#fff);
+    }
+
+    .weblog-dark{
+        background: linear-gradient(180deg, #242a3800, #242a38cc 74.19%, #242a38);
+    }
+
+    .attributes-card{
+        background-color: rgba(247, 248, 250, .86)
+    }
+
+    .test-tailwind {
+        @apply bg-primary-100 border-2 border-red-700;
+    }
+
+    .rotate{
+        transform: rotate(-90deg);
+    }
+
+    .active{
+        display: block;
+    }
+
+    .open-menu{
+        right: 0;
+        transition: all 1s;
+    }
+
+    .close-menu{
+        right: -380px;
+        transition: all 1s;
+    }
+
+    .sub-menu li{
+        margin: 11px 0;
+    }
+
+}
