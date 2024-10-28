@@ -16,7 +16,6 @@ To build and run the project locally, follow these steps:
    ```bash
    git clone <repository-url>
 
-
 3. **Navigate to the Project Directory**:
    
    ```bash
