@@ -8,19 +8,3 @@
 🚀High Performance: Optimized for speed, the site loads quickly and runs efficiently, ensuring users can access educational resources without delay.
 
 
-## 🛠️ Build and Setup Instructions
-
-To build and run the project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-
-3. **Navigate to the Project Directory**:
-   ```bash
-   cd <repository-name>
-
-5. **Build the Project: To create a production-ready build, run**:
-   
-   ```bash
-   npm run build
