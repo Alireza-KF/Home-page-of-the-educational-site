@@ -12,3 +12,9 @@ To build and run the project locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
+
+2. **Navigate to the Project Directory:**:
+
+3. **Build the Project: To create a production-ready build, run:**:
+   ```bash
+   npm run build
