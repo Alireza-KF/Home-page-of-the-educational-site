@@ -1079,7 +1079,7 @@ a {
 @font-face {
   font-family: dana-bold;
 
-  src: url(/templates/fonts/Dana-ExtraBold.ttf);
+  src: url(../fonts/Dana-ExtraBold.ttf);
 }
 
 .container {
