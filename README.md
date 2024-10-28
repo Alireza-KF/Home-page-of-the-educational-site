@@ -1,3 +1,6 @@
+
+## 🚀 Features
+
 🚀Responsive Design: Built with Tailwind CSS, the site ensures a seamless experience on all devices, from desktops to smartphones.
 
 💻Dark Mode: The site includes a user-friendly dark mode option, providing a comfortable viewing experience in low-light conditions.
@@ -8,15 +11,15 @@
 ## 🛠️ Build and Setup Instructions
 
 To build and run the project locally, follow these steps:
-
+<br><br>
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-
+<br><br>
 2. **Navigate to the Project Directory**:
    ```bash
    cd <repository-name>
-
+<br><br>
 4. **Build the Project: To create a production-ready build, run**:
    ```bash
    npm run build
