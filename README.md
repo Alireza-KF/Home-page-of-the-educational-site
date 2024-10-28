@@ -13,11 +13,12 @@
 To build and run the project locally, follow these steps:
 
 1. **Clone the Repository**:
+
    ```bash
    git clone <repository-url>
 
 
-2. **Navigate to the Project Directory**:
+3. **Navigate to the Project Directory**:
    ```bash
    cd <repository-name>
 
