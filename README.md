@@ -13,7 +13,6 @@
 To build and run the project locally, follow these steps:
 
 1. **Clone the Repository**:
-
    ```bash
    git clone <repository-url>
 
