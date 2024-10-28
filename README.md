@@ -19,10 +19,12 @@ To build and run the project locally, follow these steps:
 
 
 3. **Navigate to the Project Directory**:
+   
    ```bash
    cd <repository-name>
 
 
-4. **Build the Project: To create a production-ready build, run**:
+5. **Build the Project: To create a production-ready build, run**:
+   
    ```bash
    npm run build
