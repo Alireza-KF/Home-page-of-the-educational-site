@@ -1073,7 +1073,7 @@ a {
 @font-face {
   font-family: dana;
 
-  src: url(/templates/fonts/Dana.ttf);
+  src: url(../fonts/Dana.ttf);
 }
 
 @font-face {
