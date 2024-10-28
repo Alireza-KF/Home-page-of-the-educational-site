@@ -32,12 +32,12 @@
 
     @font-face {
         font-family: dana;
-        src: url(/fonts/Dana.ttf);
+        src: url(/templates/fonts/Dana.ttf);
     }
 
     @font-face {
         font-family: dana-bold;
-        src: url(/fonts/Dana-ExtraBold.ttf);
+        src: url(/templates/fonts/Dana-ExtraBold.ttf);
     }
       
 }
